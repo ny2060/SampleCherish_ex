@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="cherish_green_main">#1AD287</color>
+    <color name="cherish_green_sub">#00ABA2</color>
+    <color name="cherish_pink_sub">#F7596C</color>
+    <color name="cherish_text_gray">#AAAAAA</color>
+    <color name="cherish_light_gray">#F0F0F0</color>
+    <color name="cherish_light_black">#454545</color>
+    <color name="cherish_divide_gray">#E9E9E9</color>
+    <color name="cherish_black">#101010</color>
+    <color name="cherish_dark_62">#9e252930</color>
+    <color name="cherish_text_box_gray">#F5F5F5</color>
+    <color name="cherish_purple">#8189b3</color>
+
+</resources>

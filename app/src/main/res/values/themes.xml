@@ -1,0 +1,73 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Cherish" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="bottomSheetStyle">@style/CustomBottomSheet</item>
+    </style>
+
+    <style name="RoundButton" parent="Widget.MaterialComponents.Button">
+        <item name="textAllCaps">false</item>
+        <item name="cornerRadius">@dimen/radius_16dp</item>
+        <item name="android:textSize">@dimen/text_16sp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="RoundButton.GreenMain">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:backgroundTint">@color/cherish_green_main</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RoundButton.WhiteMain">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/cherish_green_main</item>
+        <item name="cornerRadius">@dimen/radius_100dp</item>
+    </style>
+
+    <style name="RoundButton.Purple">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:backgroundTint">@color/cherish_purple</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="RoundButton.White">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/cherish_green_main</item>
+    </style>
+
+    <style name="CustomShapeAppearanceOverlay.MaterialComponents.BottomSheet" parent="">
+        <item name="cornerSizeTopRight">@dimen/radius_32dp</item>
+        <item name="cornerSizeTopLeft">@dimen/radius_32dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="CherishFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="borderWidth">0dp</item>
+    </style>
+
+    <style name="CustomBottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">
+            @style/CustomShapeAppearanceOverlay.MaterialComponents.BottomSheet
+        </item>
+    </style>
+
+    <style name="CustomChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+</resources>
